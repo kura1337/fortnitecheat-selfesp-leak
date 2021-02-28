@@ -1,5 +1,5 @@
 Util::LocalPlayerPawn = localPlayerPawn;
-			Util::LocalPlayerController = localPlayerController;*/
+			Util::LocalPlayerController = localPlayerController;
 			hooks::ProcessEvent(localPlayerPawn, addresses::IsInVehicle, &InVehicle, 0);
 			std::vector<PVOID> playerPawns;
 
